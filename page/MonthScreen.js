@@ -4,7 +4,7 @@ import { View, Text, StyleSheet } from 'react-native';
 const MonthScreen = () => {
   return (
     <View style={styles.container}>
-      <Text>Month Screen</Text>
+      <Text>Month Screen Test</Text>
     </View>
   );
 };
