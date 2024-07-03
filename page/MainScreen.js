@@ -22,7 +22,7 @@ const MainScreen = ({ navigation }) => {
         {/* 2:2:6 중 첫번째 2 영역 */}
       </View>
       <View style={styles.section}>
-        {/* 2:2:6 중 두번째 2 영역 */}
+        {/* 2:2:6 중 두번째 2 영역 깃 테스트 */}
         <View style={styles.buttonContainer}>
           <Button title="전체보기" onPress={() => navigation.navigate('Total')} />
           <Button title="이번달 사용금액" onPress={() => navigation.navigate('Month')} />
