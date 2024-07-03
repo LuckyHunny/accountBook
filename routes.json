@@ -1,0 +1,10 @@
+{
+    "Login": {
+      "screen": "./page/LoginScreen",
+      "options": { "headerShown": false }
+    },
+    "Main": {
+      "screen": "./page/MainScreen",
+      "options": { "headerLeft": null }
+    }
+}
