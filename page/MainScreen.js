@@ -2,8 +2,9 @@ import React from 'react';
 import { View, Text, Button, StyleSheet, FlatList } from 'react-native';
 
 const data = [
-  { date: '2024-07-01', description: '커피', amount: '3000원' },
-  { date: '2024-07-02', description: '점심식사', amount: '8000원' },
+  { date: '2024-07-01', description: '점심식사', amount: '4400원' },
+  { date: '2024-07-03', description: '저녁식사', amount: '4600원' },
+  { date: '2024-07-04', description: '점심식사', amount: '4800원' },
   // 데이터 추가
 ];
 
