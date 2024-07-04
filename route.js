@@ -21,7 +21,12 @@ const StackNavigator = () => {
         <Stack.Screen 
           name="Main" 
           component={MainScreen} 
-          options={{ headerLeft: null }} // 메인 화면에서는 뒤로가기 버튼을 숨김
+          options={{ 
+            headerTitle: "메인화면",
+            headerLeft: null,
+            headerStyle: { backgroundColor: '#E8F5E9' }, // 헤더 배경색
+          headerTintColor: '#1B5E20' // 헤더 텍스트 색상
+           }} // 메인 화면에서는 뒤로가기 버튼을 숨김
         />
         <Stack.Screen 
           name="Total" 
